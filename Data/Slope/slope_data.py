@@ -7,7 +7,7 @@ import requests
 import time
 
 # Google Maps Elevation API Key
-API_KEY = 'AIzaSyAOylG5Aqt_KYG2_wUH9oc2ed7Nh40kqzs'
+API_KEY = ''
 
 # Function to get elevation for a single point
 def get_elevation(lat, lon):
