@@ -1,0 +1,28 @@
+The cleaned list of provinces/territories is now ready for integration into your UI or script for further processing. Here's how you can use this list effectively:
+
+### **Final Clean List for Integration:**
+- Alberta
+- British Columbia
+- Manitoba
+- New Brunswick
+- Newfoundland and Labrador
+- Northwest Territories
+- Nova Scotia
+- Nunavut
+- Ontario
+- Prince Edward Island
+- Quebec
+- Saskatchewan
+- Yukon
+
+### **Next Steps for Province Selection:**
+1. **Integration with Dropdown (UI):**
+   Pass this cleaned list as options for a dropdown in your UI so users can select their desired province.
+
+2. **Filter the Shapefile Based on Selection:**
+   When the user selects a province from the dropdown, use the selection to filter the shapefile. This ensures that only the relevant province's boundaries are extracted.
+
+3. **Save Filtered Shapefile for Future Use:**
+   Save the filtered province shapefile to a specific folder (e.g., `/filtered_shapefiles`) for downstream tasks like grid creation, climate data merging, etc.
+
+Let me know if you want assistance in integrating this process into your code or setting up the filtering step!
